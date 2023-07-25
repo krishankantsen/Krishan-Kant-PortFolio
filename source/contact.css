@@ -5,7 +5,7 @@
   }
   
   body {
-    background: linear-gradient(to right, #ea1d1d 0%, #eb4646 100%);
+    background-color: black;
     font-size: 12px;
   }
   
@@ -68,7 +68,7 @@
   }
   
   .screen-header-button.close {
-    background: #ed1c1c;
+    background: #ff7613;
     width: 20px;
   }
   
@@ -110,7 +110,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    color: #ea1d1d;
+    color: #ff7613;
     font-size: 26px;
   }
   
@@ -122,7 +122,7 @@
     bottom: -10px;
     width: 25px;
     height: 4px;
-    background: #ea1d1d;
+    background: #ff7613;
   }
   
   .app-contact {
@@ -133,7 +133,7 @@
   .mainimag img{
     width: 150px;
     height: 150px;
-    border: 1px solid red;
+    border: 1px solid #ff7613;
     border-radius: 50%;
   }
   
@@ -174,14 +174,14 @@
   .app-form-button {
     background: none;
     border: none;
-    color: #ea1d1d;
+    color: #ff7613;
     font-size: 14px;
     cursor: pointer;
     outline: none;
   }
   
   .app-form-button:hover {
-    color: #b91313;
+    color: #ff7613;
   }
   
   .credits {
