@@ -1,0 +1,127 @@
+*{
+    
+    margin: 0;padding: 0;
+    background-color: black;
+}
+.main{
+    
+    /* background-color: #ff0000;     */
+    margin-left: 30vh;
+    margin-top: 10vh;
+    width: 600px;
+}
+.main ul li{
+    backdrop-filter: blur( 5.5px );
+-webkit-backdrop-filter: blur( 5.5px );
+    list-style: none;
+    border-radius: 10px;
+    /* border-radius: 10%; */
+    background-color: rgb(38, 36, 36);
+    color:white;
+    margin-top: 10px;
+    height: 100px;
+}
+p{
+    backdrop-filter: blur( 5.5px );
+-webkit-backdrop-filter: blur( 5.5px );
+    margin-top: 10px;
+    background-color: rgb(38, 36, 36);
+    margin-left: 20px;
+}
+h1{
+    backdrop-filter: blur( 5.5px );
+-webkit-backdrop-filter: blur( 5.5px );
+    width: 300px;
+ padding: 10px;
+ background-color: rgb(38, 36, 36);
+    margin-left: 10px;
+}
+
+.link1 a{
+
+    position: absolute;
+    margin-top: -615px;
+    margin-left: 750px;
+    text-decoration: none;
+    color: #ff7613;
+    font-size: 2rem;
+
+
+}
+
+.link2 a{
+    position: absolute;
+    margin-top: -505px;
+    margin-left: 750px;
+    text-decoration: none;
+    color: #ff7613;
+    font-size: 2rem;
+
+
+}
+
+.link3 a{
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 750px;
+    text-decoration: none;
+    color:#ff7613;
+    font-size: 2rem;
+
+
+}
+
+.link4 a{
+    position: absolute;
+    margin-top: -290px;
+    margin-left: 750px;
+    text-decoration: none;
+    color:#ff7613;
+    font-size: 2rem;
+
+
+}
+.link5 a{
+    position: absolute;
+    margin-top: -180px;
+    margin-left: 750px;
+    text-decoration: none;
+    color:#ff7613;
+    font-size: 2rem;
+
+
+}
+.link6 a{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 750px;
+    text-decoration: none;
+    color: #ff7613;
+    font-size: 2rem;
+
+
+}
+a{
+    background-color: rgb(38, 36, 36);
+}
+
+
+@media only screen and (max-width: 400px) {
+
+    body {
+        margin-left: -245px;
+     
+    }
+    .main{
+        width: 420px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    .link1 ,.link2 ,.link3 ,.link4 ,.link5,.link6{
+        margin-left: -180px;
+    }
+  }
