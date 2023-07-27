@@ -108,20 +108,28 @@ a{
 
 @media only screen and (max-width: 400px) {
 
-    body {
-        margin-left: -245px;
-     
-    }
+   
     .main{
-        width: 420px;
+        margin: 2px;
+        width: 270px;
     }
+   
     h1{
-        font-size: 2rem;
+        width: 220px;
+        font-size: 1.5rem;
     }
-    p{
-        font-size: 1.2rem;
+    p{margin-top: 19px;
+        font-size: 1rem;
     }
     .link1 ,.link2 ,.link3 ,.link4 ,.link5,.link6{
-        margin-left: -180px;
+        font: 1rem;
+        
+        margin-left: -525px;
+    }
+    .link1 ,.link2 ,.link3 ,.link4 ,.link5,.link6 a{
+      
+        font: 1rem;
+        
+        
     }
   }
