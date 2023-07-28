@@ -111,7 +111,7 @@ a{
    
     .main{
         margin: 2px;
-        width: 270px;
+        width: 390px;
     }
    
     h1{
@@ -124,7 +124,7 @@ a{
     .link1 ,.link2 ,.link3 ,.link4 ,.link5,.link6{
         font: 1rem;
         
-        margin-left: -525px;
+        margin-left: -450px;
     }
     .link1 ,.link2 ,.link3 ,.link4 ,.link5,.link6 a{
       
